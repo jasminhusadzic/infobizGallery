@@ -5,7 +5,6 @@ import { AppComponent} from './app.component';
 import { GalleryComponent} from './gallery/gallery.component';
 
 export const router: Routes = [
-    {path:'',redirectTo:'gallery', pathMatch:'full'},
     {path:'gallery', component: GalleryComponent}
 ];
 

@@ -52,6 +52,16 @@ export class GalleryComponent implements OnInit {
             small: 'assets/3-small.jpg',
             medium: 'assets/3-medium.jpg',
             big: 'assets/3-big.jpg'
+        },
+        {
+            small: 'assets/3-small.jpg',
+            medium: 'assets/3-medium.jpg',
+            big: 'assets/3-big.jpg'
+        },
+        {
+            small: 'assets/3-small.jpg',
+            medium: 'assets/3-medium.jpg',
+            big: 'assets/3-big.jpg'
         }
     ];
 }

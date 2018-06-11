@@ -1,10 +1,9 @@
-import { Component, OnInit,NgModule, VERSION } from '@angular/core';
+import { Component, OnInit,NgModule, VERSION, Input } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
   AccessibilityConfig, Action, AdvancedLayout, ButtonEvent, ButtonsConfig, ButtonsStrategy, ButtonType, Description, DescriptionStrategy, GalleryService,
   DotsConfig, GridLayout, Image, ImageModalEvent, LineLayout, PlainGalleryConfig, PlainGalleryStrategy, PreviewConfig
 } from 'angular-modal-gallery';
-
 
 @Component({
   selector: 'app-gallery2',
@@ -12,12 +11,12 @@ import {
   styleUrls: ['./gallery2.component.css']
 })
 export class Gallery2Component {
-
   name: string;
 
   constructor(private galleryService: GalleryService) {
-    this.name = `${VERSION.full}`
+    this.name = `${VERSION.full}`;      
   }
+ 
 
   imageIndex = 1;
   galleryId = 1;
@@ -60,9 +59,10 @@ export class Gallery2Component {
 
   plainGalleryGrid: PlainGalleryConfig = {
     strategy: PlainGalleryStrategy.GRID,
-    layout: new GridLayout({ width: '80px', height: '80px' }, { length: 3, wrap: true })
+    layout: new GridLayout({ width: '180px', height: '180px' }, { length: 4, wrap: true })
   };
-
+ 
+  
   images: Image[] = [
     new Image(
       0,

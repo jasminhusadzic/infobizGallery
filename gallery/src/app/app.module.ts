@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { Gallery2Component } from './gallery2/gallery2.component';
 import { LightboxComponent } from './lightbox/lightbox.component';
+import { SwipeboxComponent } from './swipebox/swipebox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
     Gallery2Component,
-    LightboxComponent
+    LightboxComponent,
+    SwipeboxComponent
   ],
   imports: [
     BrowserModule,

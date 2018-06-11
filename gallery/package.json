@@ -31,7 +31,9 @@
     "mousetrap": "^1.6.2",
     "ngx-gallery": "^5.3.2",
     "ngx-lightbox": "^1.0.2",
+    "photoswipe": "^4.1.2",
     "rxjs": "^6.0.0",
+    "swipebox": "^1.4.6",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
